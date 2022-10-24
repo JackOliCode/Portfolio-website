@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="img/favicon-32x32.png"/>
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">	
+		<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Jost&family=Oswald:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+
+		<header class="page-header">
+				<!-- Re-do Logo! -->
+				<img src="img/Jack-Logo.jpg" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">
+				<nav class="main-navigation page-header__item">
+					<ul role="menubar" class="navigation-list">
+						<li role=presentation>
+							<a href="index.html" role="menuitem" class="navigation-list__item"> Home</a>
+						</li>
+						<li role=presentation>
+							<a href="about.html" role="menuitem" class="navigation-list__item"> About Me</a>
+						</li>
+						<li role=presentation>
+							<a href="contact.html"role="menuitem" class="navigation-list__item navigation-list__item--active"> Contact</a>
+						</li>
+						<li role=presentation>
+							<a href="work.html" role="menuitem" class="navigation-list__item"> Projects</a>
+						</li>
+					</ul>
+				</nav>
+		</header>
+
+		<main>
+
+			<div class="contact-container">
+				<section class="contact-details">
+					<a href="mailto:jack.v.oliver@gmail.com">Get in touch!</a><br>
+					<br>
+					74b Tooting High Street<br>
+					Tooting <br>
+					London <br>
+					SW17 0RN <br>
+					<br>
+					<a href="tel:07398039755">Tel 07398039755</a><br>
+					<a href="skype:jack.v.oliver@gmail.com">Skype: jack.v.oliver</a><br>
+					<a href="mailto:jack.v.oliver@gmail.com">jack.v.oliver@gmail.com</a>
+				</section>
+			
+				<form action="" method="post" id="contact-form">
+					<label class="label-standard" for="email">E-mail: </label>
+					<input type="email" id="email" required>
+
+					<label class="label-standard" for="tel">Telephone</label>
+					<input type="tel" id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+					<label class="label-message" for="message">Message: </label>
+					<textarea id=message required maxlength="240" style="width: 460px; height: 75px;"></textarea>
+					<br>
+					<input type="submit" class="button-send" value="Send Message">
+					</div>
+				</form>	
+			</div>	
+		</main>
+		<footer class="page-footer fixed">
+			<p>Find me on</p>
+			<div class="social-media">
+				<a href="https://github.com/" target="blank"> <img src="img/Github_logo.svg" alt="GitHub Logo"></a>
+				<a href="https://twitter.com/?lang=en" target="blank"> <img src="img/Twitter_logo.svg" alt="Twitter Logo"></a>
+				<a href="https://www.linkedin.com/in/jack-oliver-nz/" target="blank"> <img src="img/Linked_logo.svg" alt="LinkedIn Logo"></a>
+			</div>
+		</footer>
+
+	
+	<script src="js/tota11y.min.js"></script>
+	</body>
+</html>

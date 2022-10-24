@@ -1,0 +1,25 @@
+:root {
+
+--button-outline: 1px solid var(--primary-color);
+--button-border: none;
+--button-font-family: inherit;
+--button-background-color: transparent;
+--button-color: var(--dark-blue);
+--button-text-decoration: none;
+--button-padding: 10px;
+--button-box-shadow: 0 3px 10px 0 var(--secondary-color);
+--button-border-radius: 30px;
+--button-transition: 0.3s outline;
+
+--button-variable:
+	var(--button-outline: 1px solid var(--primary-color))
+	var(--button-border: none)
+	var(--button-font-family: inherit)
+	--button-background-color: transparent
+	--button-color: var(--dark-blue)
+	--button-text-decoration: none
+	--button-padding: 10px
+	--button-box-shadow: 0 3px 10px 0 var(--secondary-color)
+	--button-border-radius: 30px
+	--button-transition: 0.3s outline;
+}
