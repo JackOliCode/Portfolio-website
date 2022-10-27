@@ -60,7 +60,7 @@ a {
 
 
 a:visited {
-	color: #05676e;
+	color: inherit;
 }
 
 a:hover, a:focus {
@@ -69,12 +69,13 @@ a:hover, a:focus {
 }
 
 a:active {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	text-decoration: underline;
 }
 
 .navigation-list {
 	list-style-type: none;
+	color: var(--primary-color);
 }
 
 .navigation-list li {
@@ -133,7 +134,9 @@ a:active {
 	text-align: center;
 }
 
-
+.contact-details{
+	color: var(--dark-blue);
+}
 .label-message {
 	display: block;
 }
@@ -164,6 +167,7 @@ a:active {
 	padding: 20px;
 	margin: auto;
 	border-bottom: 2px solid var(--secondary-color);
+	background-color: var(--dark-blue);
 }
 
 .page-header__item {
