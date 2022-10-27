@@ -319,6 +319,7 @@ button:hover, button:focus,
 	width: 80%;
 	margin: 0 auto;
 	background-color: blueviolet;
+	text-align: center;
 }
 
 /* start grid fallback */
@@ -340,7 +341,7 @@ button:hover, button:focus,
 	.project-grid__item {
 		background-color: var(--primary-color);
 		width: auto;
-		min-height: 40vh;
+		min-height: 50vh;
 		margin: 0;
 		text-align: center;
 		transition: 0.2s opacity;
