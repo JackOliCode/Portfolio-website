@@ -384,19 +384,19 @@ button:hover, button:focus,
 
 /* -----------------------------------------------@media queries -------------------------- */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 550px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 550px) and (max-width: 900px){
   .project-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 900px) {
   .project-grid {
     grid-gap: 10px;
   }
