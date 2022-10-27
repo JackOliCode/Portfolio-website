@@ -18,6 +18,7 @@ font-family: 'Oswald', sans-serif;
 --primary-color: #b4e2ff;
 --secondary-color: #c0c0c0;
 --dark-blue: #062256;
+--dark-blue-light: #093586;
 
 }
 
@@ -167,7 +168,7 @@ a:active {
 	padding: 20px;
 	margin: auto;
 	border-bottom: 2px solid var(--secondary-color);
-	background-color: var(--dark-blue);
+	background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue-light), var(--dark-blue));
 }
 
 .page-header__item {
