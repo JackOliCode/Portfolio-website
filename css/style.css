@@ -172,8 +172,8 @@ a:active {
 }
 
 .page-header__item {
-	flex: 0 1 200px;
-	margin-left: -15px;
+	flex: 0 1 95px;
+	width: 95px;
 }
 
 .page-header__item:last-child {
