@@ -275,7 +275,7 @@ button:hover, button:focus,
 
 @keyframes sun-color-move {
 	0% {
-		fill: #yellow;
+		fill: #ff0;
 		transform: translate(0px, 0px);
 	}
 	30% {
@@ -288,7 +288,6 @@ button:hover, button:focus,
 	}
 	100% {
 		fill: #ffd10003;
-		transform: ;
 		transform: translate(0px, 325px);
 }
 }
