@@ -1,8 +1,13 @@
+/* stylelint-disable comment-whitespace-inside */
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable indentation */
+
 /* Colours used
 
 Text Colour (Dark Blue): #062256
 Primary Colour (Light Blue): #b4e2ff
-Secondary Colour (Silver): #C0C0C0, #aaa9ad 
+Secondary Colour (Silver): #C0C0C0, #aaa9ad
 font-family: 'Alkalami', serif;
 font-family: 'Jost', sans-serif;
 font-family: 'Playfair Display', serif;
@@ -14,25 +19,24 @@ font-family: 'Oswald', sans-serif;
 	box-sizing: border-box; /* add this to CSS page using the * universal prompt. This will make it so that the width of the border will
 								not be width+margin+padding but will stick to a specified size and the width of the box will accomodate the P&M */
 }
-:root {
---primary-color: #b4e2ff;
---secondary-color: #c0c0c0;
---dark-blue: #062256;
---dark-blue-light: #093586;
 
+:root {
+		--primary-color: #b4e2ff;
+		--secondary-color: #c0c0c0;
+		--dark-blue: #062256;
+		--dark-blue-light: #093586;
 }
 
-
 body {
-	font-family: 'Jost', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.6;
-	min-height: 100vh
+			font-family: Jost, sans-serif;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 1.6;
+			min-height: 100vh;
 }
 
 h1 {
-	font-family: 'Oswald', serif;
+	font-family: Oswald, serif;
 	font-size: 30px;
 	font-weight: 700;
 	font-variant: small-caps;
@@ -40,7 +44,7 @@ h1 {
 }
 
 h2 {
-	font-family: 'Oswald', serif;
+	font-family: Oswald, serif;
 	font-size: 24px;
 	font-weight: 700;
 	font-variant: small-caps;
@@ -58,7 +62,6 @@ a {
 	color: var(--dark-blue);
 	text-decoration: none;
 }
-
 
 a:visited {
 	color: inherit;
@@ -126,7 +129,6 @@ a:active {
 
 																/* Contact CSS  																		*/
 
-
 .contact-container {
 	max-width: 700px;
 	min-height: 100%;
@@ -135,9 +137,10 @@ a:active {
 	text-align: center;
 }
 
-.contact-details{
+.contact-details {
 	color: var(--dark-blue);
 }
+
 .label-message {
 	display: block;
 }
@@ -150,7 +153,6 @@ a:active {
 	margin-top: 40px;
 }
 
-
 .page-footer {
 	clear: both;
 	display: flex;
@@ -161,10 +163,9 @@ a:active {
 	top: 100%;
 }
 
-
 .page-header {
 	display: flex;
-	width: 100%  ;
+	width: 100%;
 	padding: 20px;
 	margin: auto;
 	border-bottom: 2px solid var(--secondary-color);
@@ -181,7 +182,7 @@ a:active {
 	text-align: right;
 }
 
-
+/* stylelint-disable-next-line comment-whitespace-inside */
 
 /* ------------------------About page begins ---------------------------------*/
 
