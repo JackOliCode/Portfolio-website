@@ -260,6 +260,7 @@ button:hover, button:focus,
 	height: 500px;
 	width: auto;
 	margin-bottom: 15px;
+	width: 100%;
 	/* outline: 1px solid green; */
 }
 
@@ -435,5 +436,3 @@ button:hover, button:focus,
 		margin-bottom: 30px;
 	}
 }
-
-
