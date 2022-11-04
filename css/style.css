@@ -430,4 +430,10 @@ button:hover, button:focus,
 	}
 }
 
+@media all and (max-width: 315px) {
+	.button-code {
+		margin-bottom: 30px;
+	}
+}
+
 
