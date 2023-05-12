@@ -387,7 +387,7 @@ button:hover, button:focus,
 	opacity: 0.6;
 }
 
-.portfolio-intro {
+.project-intro {
 	width: 50%;
 	margin: auto;
 }
@@ -448,7 +448,7 @@ button:hover, button:focus,
 }
 
 @media all and (max-width: 1150px) {
-	.portfolio-intro {
+	.project-intro {
 		width: 100%;
 	}
 }
