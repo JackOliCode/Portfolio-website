@@ -387,6 +387,10 @@ button:hover, button:focus,
 	opacity: 0.6;
 }
 
+.portfolio-intro {
+	width: 50%;
+	margin: auto;
+}
 
 /* -----------------------------------------------@media queries -------------------------- */
 
@@ -440,5 +444,11 @@ button:hover, button:focus,
 @media all and (max-width: 470px) {
 	.label-standard {
 		display: block;
+	}
+}
+
+@media all and (max-width: 1150px) {
+	.portfolio-intro {
+		width: 100%;
 	}
 }
