@@ -319,7 +319,7 @@ button:hover, button:focus,
 	
 
 
-/* Project // Work page CSS begins */
+													/* Project // Work page CSS begins */
 
 .project-container {
 	width: 80%;
@@ -329,7 +329,7 @@ button:hover, button:focus,
 }
 
 .project-heading {
-	margin-bottom: 30px;
+	margin-bottom: 120px;
 }
 
 /* start grid fallback */
@@ -391,6 +391,69 @@ button:hover, button:focus,
 	width: 50%;
 	margin: auto;
 }
+												/* Project-One Flex-box */
+
+.project-one {
+	position: relative;
+	display: flex;
+	width: auto;
+    /*max-height: 50vh; */
+    margin: 0;
+    text-align: center;
+    transition: 0.2s opacity;
+}
+
+.project-one__container {
+	border: solid blue;
+}
+
+.project-one_layer1 {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.project-one_layer1 div:nth-child(1) {
+	flex-grow: 2;
+}
+
+.project-one__image {
+	width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.project-one > h3 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		visibility: hidden;
+		z-index: 2;
+		transition: all ease-in-out 0.2s;
+		font-size: 50px;
+		color: #000;
+}
+
+.project-one:hover > h3 {
+	visibility: visible;
+}
+
+	.project-one:hover {
+		opacity: 0.6;
+	}
+
+	.project-one__textbox {
+		text-align: justify;
+		border: solid gold;
+		margin: 0 2%;
+	}
+	.project-one__textbox2 {
+		text-align: justify;
+		border: solid gold;
+		margin: 0 2% 0 0;
+	}
+
 
 /* -----------------------------------------------@media queries -------------------------- */
 
@@ -450,5 +513,11 @@ button:hover, button:focus,
 @media all and (max-width: 1150px) {
 	.project-intro {
 		width: 100%;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.project-one_layer1 {
+		flex-direction: column;
 	}
 }
