@@ -453,6 +453,16 @@ button:hover, button:focus,
 .project-grid__item:nth-child(3) > h3 {
 	color: white;
 }
+
+/* ---------------- new project css --------------------*/
+
+.project-grid-1 {
+	display: grid;
+}
+
+
+
+
 /* -----------------------------------------------@media queries -------------------------- */
 
 @media all and (max-width: 550px) {
