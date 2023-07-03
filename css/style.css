@@ -130,11 +130,20 @@ a:active {
 																/* Contact CSS  																		*/
 
 .contact-container {
-	max-width: 700px;
+	max-width: 80%;
 	min-height: 100%;
 	margin: 0 auto;
 	margin-top: 50px;
 	text-align: center;
+}
+
+.contact-h2 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.contact-content {
+	color: var(--dark-blue);
 }
 
 .contact-details {
@@ -463,4 +472,5 @@ button:hover, button:focus,
 	.project-intro {
 		width: 100%;
 	}
+}
 }
