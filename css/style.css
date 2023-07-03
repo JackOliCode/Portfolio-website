@@ -35,6 +35,11 @@ body {
 			min-height: 100vh;
 }
 
+main {
+	min-height: 100vh;
+
+}
+
 h1 {
 	font-family: Oswald, serif;
 	font-size: 30px;
@@ -130,20 +135,55 @@ a:active {
 																/* Contact CSS  																		*/
 
 .contact-container {
-	max-width: 80%;
+	max-width:75%;
 	min-height: 100%;
 	margin: 0 auto;
 	margin-top: 50px;
 	text-align: center;
 }
 
-.contact-h2 {
+.contact-row {
+	display: flex;
+	height: 370px;
+	overflow: hidden;
+	align-items: center;
+	margin-top: 2%
+}
+
+.contact-content {
+	margin-bottom: 5%;
+}
+
+.contact-img_class {
+	width: 600px;
+}
+
+.heading-1 {
 	font-size: 50px;
 	margin: 0;
 }
 
-.contact-content {
+.contact-h3 {
+	font-family: Oswald, serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
 	color: var(--dark-blue);
+}
+
+.contact-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.contact-content_class {
+	color: var(--dark-blue);
+	width: 80%;
+	text-align: justify;
+	text-justify: inter-word;
+	margin: 10px;
+	margin-bottom: 30px;
 }
 
 .contact-details {
@@ -473,4 +513,25 @@ button:hover, button:focus,
 		width: 100%;
 	}
 }
+
+
+@media all and (max-width: 1200px) {
+	.contact-row {
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width: 820px) {
+	.contact-row {
+		flex-direction: column;
+		font-size: 13px;
+		height: 100%;
+	}
+	.contact-img_class {
+			width: 75%;
+		}
+	.heading-1 {
+		font-size: 30px;
+	}
+	}
 }
