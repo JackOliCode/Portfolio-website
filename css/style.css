@@ -33,6 +33,7 @@ body {
 			font-size: 16px;
 			line-height: 1.6;
 			min-height: 100vh;
+			background: linear-gradient( to right, paleturquoise 0%, #1fff59 50%, #ff4ed2 50%, pink 100% );
 }
 
 main {
@@ -126,10 +127,11 @@ a:active {
 .profile-container__item {
 	float: right;
 	width: 360px;
-	margin-right: 40px;
-	margin-left: 5px;
-	margin-top: 115px;
+	margin-right: -46px;
+	margin-left: -18px;
+	margin-top: 111px;
 	margin-bottom: 40px;
+
 }
 
 																/* Contact CSS  																		*/
@@ -238,7 +240,7 @@ a:active {
 .about-container {
 	margin: 0 auto;
 	margin-top: 50px;
-	max-width: 900px;
+	max-width: 75%;
 	/* outline: 1px solid blueviolet; */
 }
 
