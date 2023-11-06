@@ -33,7 +33,7 @@ body {
 			font-size: 16px;
 			line-height: 1.6;
 			min-height: 100vh;
-			background: linear-gradient( to right, paleturquoise 0%, #1fff59 50%, #ff4ed2 50%, pink 100% );
+			/*background: linear-gradient( to right, paleturquoise 0%, #1fff59 50%, #ff4ed2 50%, pink 100% );*/
 }
 
 main {
@@ -239,8 +239,8 @@ a:active {
 
 .about-container {
 	margin: 0 auto;
-	margin-top: 50px;
-	max-width: 75%;
+	/*margin-top: 50px;*/
+	/*max-width: 75%;*/
 	/* outline: 1px solid blueviolet; */
 }
 
@@ -542,7 +542,7 @@ opacity: 0.6;
 
 .project-grid-3 {
 	display: grid;
-	grid-template-columns: 1.5fr 0.5fr 2fr;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
 	margin: 20px;
 }
