@@ -11,24 +11,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<body>
+	<body class="contact-container">
 
 		<header class="page-header">
 				
-			<img src="img/J.O-Logo.png" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">
+			<!--<img src="img/J.O-Logo.png" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">-->
 			<nav class="main-navigation page-header__item">
 				<ul role="menubar" class="navigation-list"> 
 					<li role=presentation>
-						<a href="index.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> Home</a>
+						<a href="index.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Home</a>
 					</li>
 					<li role=presentation>
-						<a href="about.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> About Me</a>
+						<a href="about.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> About Me</a>
 					</li>
 					<li role=presentation>
-						<a href="work.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> Projects</a>
+						<a href="work.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Projects</a>
 					</li>
 					<li role=presentation>
-						<a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: #b4e2ff;"> Contact</a>
+						<a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: var(--dark-blue);"> Contact</a>
+					</li>
+					<li role=presentation>
+						<a href="lemonshed.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Lemonshed</a>
 					</li>
 				</ul>
 			</nav>
@@ -36,9 +39,12 @@
 
 		<main>
 
-			<div class="contact-container">
+			<div class="contact-main">
 			<div class="contact-content">
-					<a href="mailto:jack.v.oliver@gmail.com"><h2 class="heading-1">Let's get together</h2></a><br>
+				<div class="contact-h1_container">
+					<a href="mailto:jack.v.oliver@gmail.com"><h2 class="heading-1" style="color: var(--dark-blue);">Let's get together</h2></a><br>
+				</div>
+
 					<div class="contact-row">
 						<div class="contact-img_class">
 							<picture>
@@ -50,12 +56,12 @@
 							<p>
 								If you're trying to find me, I'm currently working and living in
 							
-							<span style="color: white"> London </span></p>
+							<span style="color: var(--primary-color); font-weight: bold;"> London </span></p>
 						<div>
 							<p>	I've been here for almost five years now. It's a unique place. Everyone always seems to be
 								rushing headlong somewhere - anywhere - and you can either jump in and get lost in the flood.<br><br>
 
-								<a href="work.html" style="color: white;">Or, use that momentum to take you to places you never thought possible</a><br><br>
+								<a href="work.html" style="color: var(--primary-color); font-weight: bold;">Or, use that momentum to help you do things you never thought possible</a><br><br>
 
 								In London, you learn first that everyone's time is valuable and if you want anyone to invest time in you -
 								It has to be worth it.<br><br>
@@ -67,15 +73,15 @@
 			</div>
 
 					<div class="contact-details">
-						<h2 class="heading-1">If you would like to know more,</h2>
+						<h2 class="heading-1" style="color: var(--dark-blue)">If you would like to know more,</h2>
 						<h3 class="contact-h3">about me, my ideas,</h3>
 						<p>	or just my top 5 favourite pubs in Tooting & Balham<br>
 							then please see my links below.
 						</p>
 					</div>
-					<a href="mailto:jack.v.oliver@gmail.com">jack.v.oliver@gmail.com</a><br>
-					<a href="https://www.linkedin.com/in/jack-oliver-nz/" target="blank" alt="LinkedIn link">jack-oliver-nz</a><br>
-					<a href="https://github.com/JackOliCode" target="blank" alt="GitHub link">JackOliCode</a>
+					<a href="mailto:jack.v.oliver@gmail.com" style="color: var(--dark-blue)">jack.v.oliver@gmail.com</a><br>
+					<a href="https://www.linkedin.com/in/jack-oliver-nz/" target="blank" alt="LinkedIn link" style="color: var(--dark-blue)">jack-oliver-nz</a><br>
+					<a href="https://github.com/JackOliCode" target="blank" alt="GitHub link" style="color: vvar(--dark-blue)">JackOliCode</a>
 				
 			<!-- </div>
 
@@ -94,12 +100,15 @@
 			-->
 			
 		</main>
-		<footer class="page-footer fixed">
+		<footer class="page-footer">
 			<p>Curious?</p>
 			<div class="social-media">
-				<a href="https://github.com/JackOliCode" target="blank"> <img src="img/Github_logo.svg" alt="GitHub Logo"></a>
-				<a href="https://twitter.com/?lang=en" target="blank"> <img src="img/twitter-logo.svg" alt="Twitter Logo"></a>
-				<a href="https://www.linkedin.com/in/jack-oliver-nz/" target="blank"> <img src="img/Linked_logo.svg" alt="LinkedIn Logo"></a>
+				<a href="https://github.com/" target="blank"> <img src="img/Github_logo.svg" alt="GitHub Logo" style="width: 50px;"></a>
+				<a href="mailto:jack.v.oliver@gmail.com" target="_blank">
+                    <img src="img/about_me/email-svgrepo-com.svg" alt="Email link" style="width: 50px;">
+                </a>
+				<a href="https://www.linkedin.com/in/jack-oliver-nz/" target="blank"> <img src="img/Linked_logo.svg" alt="LinkedIn Logo" style="width: 50px;"></a>
+
 			</div>
 		</footer>
 
