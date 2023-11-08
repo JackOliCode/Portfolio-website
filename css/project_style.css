@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -112,6 +116,66 @@ opacity: 0.6;
 	color: white;
 }
 
+/* ---------------- project myflix carousel --------------------*/
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide > img {
+    display: block;
+    width: 65vw;
+    height: 65vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.carousel-button {
+    position: absolute;
+    background: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button.prev {
+    left: 10rem;
+}
+
+.carousel-button.next {
+    right: 10rem;
+}
 
 /* ---------------- project grid-3 css --------------------*/
 
