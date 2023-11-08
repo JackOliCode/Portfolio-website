@@ -8,50 +8,100 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Jost&family=Oswald:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/lemonshed_style.css">
+        <script src="js/script.js" defer></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 
-	<body class="main-container">
+	<body class="case_study_container">
  
 		<header class="page-header">
 				
-				<img src="img/J.O-Logo.png" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">
-				<nav class="main-navigation page-header__item">
-					<ul role="menubar" class="navigation-list"> 
-						<li role=presentation>
-							<a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: #b4e2ff;"> Home</a>
+			<!--<img src="img/J.O-Logo.png" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">-->
+			<nav class="main-navigation page-header__item">
+				<ul role="menubar" class="navigation-list"> 
+					<li role=presentation>
+						<a href="index.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Home</a>
+					</li>
+					<li role=presentation>
+						<a href="about.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> About Me</a>
+					</li>
+					<li role=presentation>
+						<a href="projects.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Projects</a>
+					</li>
+					<li role=presentation>
+						<a href="contact.html" role="menuitem" class="navigation-list__item" style="color: var(--dark-blue);"> Contact</a>
+					</li>
+					<li role=presentation>
+						<a href="lemonshed.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: var(--dark-blue);"> Lemonshed</a>
+					</li>
+				</ul>
+			</nav>
+	    </header>
+
+		<main >
+			
+
+			<!-- MyFlix Carousel -->
+
+			<section class="wrapper">
+
+				<div class="content">
+					<h1>Lemonshed Case Study</h1> 
+				</div>
+
+				<div class="carousel" data-carousel>
+					<button class="carousel-button prev" data-carousel-button="prev" style="border: none; outline: none; background: none;">&#60;</button>
+					<button class="carousel-button next" data-carousel-button="next" style="border: none; outline: none; background: none;">&#62;</button>
+					<ul data-slides>
+						<li class="slide" data-active=""> <!-- 1 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study.jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
 						</li>
-						<li role=presentation>
-							<a href="about.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> About Me</a>
+						<li class="slide"> <!-- 2 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (1).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
 						</li>
-						<li role=presentation>
-							<a href="projects.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> Projects</a>
+						<li class="slide"> <!-- 3 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (2).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
 						</li>
-						<li role=presentation>
-							<a href="contact.html" role="menuitem" class="navigation-list__item" style="color: #b4e2ff;"> Contact</a>
+						<li class="slide"> <!-- 4 --> 
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (3).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made usin React"></a>
+						</li>
+						<li class="slide"> <!-- 5 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (4).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 6 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (5).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 7 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (6).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 8 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (7).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 9 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (8).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 10 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (9).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+						</li>
+						<li class="slide"> <!-- 11 -->
+							<img class="carousel-img" src="img/lemonshed_cs/Lemonshed Case Study (10).jpg" 
+							alt="image of and link to the Front End of my MyFlix project, made using React"></a>
 						</li>
 					</ul>
-				</nav>
-		</header>
+				</div>
 
-		<main>
-			<section class="case_study_container">
 				
-				<div class="case_study-heading">
-					<h1 class="">Django App Case Study</h1>
-				</div>
-
-				<div class="case_study-grid-1">
-					<!-- Introduction  -->
-					<div style="height: 300px; width: 300px; ">
-					<img style="width: 100%; height: 100%; object-fit: cover;"
-						class=""
-						src="img/lemonshed_cs/chicken_burger.jpg"
-						alt="image of a chicken burger. Yum.">
-					</div>
-					
-				</div>
-
 
 			</section>
 
