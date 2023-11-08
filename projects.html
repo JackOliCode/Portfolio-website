@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" href="img/favicon-32x32.png">
+		<title>Project page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Jost&family=Oswald:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/project_style.css">
+        <script src="js/script.js" defer></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body class="project-bg">
+
+        <header class="page-header">
+				
+			<!--<img src="img/J.O-Logo.png" class="page-header__item" alt="Personal logo of Jack Oliver, a text logo that consists of my name">-->
+			<nav class="main-navigation page-header__item">
+				<ul role="menubar" class="navigation-list"> 
+					<li role=presentation>
+						<a href="index.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> Home</a>
+					</li>
+					<li role=presentation>
+						<a href="about.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> About Me</a>
+					</li>
+					<li role=presentation>
+						<a href="projects.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: var(--primary-color);"> Projects</a>
+					</li>
+					<li role=presentation>
+						<a href="contact.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> Contact</a>
+					</li>
+					<li role=presentation>
+						<a href="lemonshed.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> Lemonshed</a>
+					</li>
+				</ul>
+			</nav>
+	    </header>
+
+        <main>
+            <div class="wrapper">
+                <section class="one">
+                    <div class="content" style="position: relative; bottom: 10%;">
+                        <h1>Behold, projects</h1>
+                        <p class="subheading">
+                            Hello there. It’s been a busy few months learning how to code.
+						    I’m starting to get the hang of it and below you’ll find some of the stuff I’ve been working on.<br><br>
+						    As Lao Tzu once said “A journey of a thousand miles, begins with a single step”.<br><br>
+						    So feel free to follow my proverbial footsteps below and trace my own learning journey.
+                        </p>
+                    </div>
+
+                </section>
+
+
+                <section class="two grid_section">
+                    <div class="content">
+                    <h2>Hear-Say</h2> 
+                    <p class="subheading">
+                        React Native
+                    </p>
+                
+                </div> 
+														<!-- project grid-1 -->
+				<div class="project-grid-1">		
+					<!-- Chat app -->
+					<div class="project-grid-1_item">
+					
+							<video 
+								class="project-grid-1_image" controls>
+								<source src="img/video/5.5 video.mp4" type=video/mp4>
+								alt="video of and link to my React Native project, a chat app made using React native">
+							</video>
+							
+					</div>
+					<div class="project-grid-1_info">
+						<h3>Hear-Say</h3>
+						<p>
+							A chat app for mobile devices, built using React Native. 
+							The app provides users with a modifiable chat interface and options to share images and their location.
+						</p>
+						<a href="https://github.com/JackOliCode/Chat-App" target="blank">See this on GitHub</a>
+					</div>
+				</div>  
+                
+                </section>
+
+
+                <!-- MyFlix Carousel -->
+
+                <section class="three grid_section">
+                    <div class="content">
+                        <h2>MyFlix Projects</h2> 
+                        <p class="subheading">
+                            React - Angular - Back-End
+                        </p>
+                    </div>
+
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button prev" data-carousel-button="prev" style="border: none; outline: none; background: none;">&#60;</button>
+                        <button class="carousel-button next" data-carousel-button="next" style="border: none; outline: none; background: none;">&#62;</button>
+                        <ul data-slides>
+                            <li class="slide" data-active=""> <!-- myFlix React -->
+                                <h3>myFlix<br>React</h3>
+                                <a
+                                    href="https://jackocflix.netlify.app/login"
+                                    target="blank">
+                                    <img class="carousel-img" src="img/project/myflix.png" 
+                                    alt="image of and link to the Front End of my MyFlix project, made using React"></a>
+                            </li>
+                            <li class="slide"> <!-- myFlix Angular -->
+                                <h3 style="color: black;">myFlix - Angular</h3>
+                                <a
+                                    href="https://jackocflix.netlify.app/login"
+                                    target="blank">
+                                <img class="carousel-img" src="img/project-screenshots/myflixangular.png" 
+                                alt="image of and link to the reimagined Front End of my MyFlix project, made using Angular"></a>
+                            </li>
+                            <li class="slide"> <!-- myFlix backend -->
+                                <h3 style="color: black;">myFlix<br>Back-End</h3>
+                                <a
+                                    href="https://github.com/JackOliCode/myFlix-client"
+                                    target="blank">
+                                <img class="carousel-img" src="img/project/mongo.png" 
+                                alt="image of and link to the backend for my MyFlix app"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    
+
+                </section>
+                <div style="display: flex; align-items: center; justify-content: center; background: rgba(255,71,208,1);">
+                    <div class="project-myflix_info">
+                        <h3>MyFlix Projects</h3>
+                        <p>
+                            Above are the three projects I made for the MyFlix app assignment. I began with creating a database using JSON and Node.js and the database is hosted on MongoDB. 
+                            <br><br>
+                            After this, I then made a single page app in React, using multiple components to allow the user to view a range of pre-existing movies, their own user profile and the movies that they have added to their favourites. The front end app syncs with the MyFlix API mentioned above.
+                            <br><br>
+                            Finally, after some time away from the project, I returned to reimagine the front end client and used Angular to make it on this occasion. 
+                            <br><br>
+                        </p>
+                        <a href="https://github.com/JackOliCode/myFlix-client" target="blank">See this on GitHub</a>
+                    </div>
+                </div>
+
+
+                <!-- Meet app Project -->
+
+                <section class="four grid_section">
+                    <!-- project grid-3 -->
+                    <div class="content">
+                        <h2>Meet-App</h2> 
+                        <p class="subheading">
+                           PWA using React
+                        </p>
+                    </div>
+                    <div class="project-grid-3">
+                    <!-- Meet app info -->
+                        <div class="project-grid-3_info">
+                            <h3>Meet-App<br>PWA using React</h3>
+                            <p>
+                                A PWA that shows upcoming events in a range of cities, as well as visualising this data for the user. This app also has serverlesss capabilities<br>
+                                The front-end was written with JavaScript/React and the back-end server logic was written with Node/Express as Lamda functions - hosted on AWS. 
+                            </p>
+                            <a href="https://github.com/JackOliCode/meet" target="blank">See this on GitHub</a>
+                        </div>
+				
+					<!-- Meet app -->
+                        <div class="project-grid-3_item">
+                            <h3>Meet-App<br>PWA using React</h3>
+                            <a 
+                                href="https://jackolicode.github.io/meet/"
+                                target="blank">
+                                <img 
+                                    class="project-grid-3_image" 
+                                    src="img/project/meet-app-home.png" 
+                                    alt="image of and link to my PWA 'Meet-App">
+                            </a>
+                        </div>
+                </div>
+					
+
+                </section>
+
+
+                <!-- Lemonshed Project -->
+                
+                <section class="five grid_section">
+
+                    <!-- project grid-4 -->
+                    <div class="content">
+                        <h2>Lemonshed</h2> 
+                        <p class="subheading">
+                           Django Web Application
+                        </p>
+                    </div>
+                    <div class="project-grid-4">
+                    <!-- Lemonshed App info -->
+                        <div class="project-grid-4_info">
+                            <h3>Lemonshed<br>Django/Python Web Application</h3>
+                            <p>
+                                A web application created with Python and the Django framework,
+                                featuring a MySQL backend database and front-end pages rendered in
+                                HTML and CSS. This application is a treasure trove of delightful recipes,
+                                allowing users to explore recipes by ingredients, browse enticing images,
+                                and even contribute their own culinary creations
+                            </p>
+                            <a href="https://github.com/JackOliCode/lemonshed" target="blank">See this on GitHub</a>
+                        </div>
+				
+					<!-- Lemonshed App -->
+                        <div class="project-grid-4_item">
+                            <h3>Lemonshed<br>Django/Python Web Application</h3>
+                            <a 
+                                href="https://lemonshed-5a988e172e80.herokuapp.com/login/"
+                                target="blank">
+                                <img 
+                                    class="project-grid-4_image" 
+                                    src="./img/lemonshed_cs/lemonshed-banner.png" 
+                                    alt="image of and link to my Django app Lemonshed">
+                            </a>
+                        </div>
+                </div>
+                    
+                </section>
+
+            </div>
+
+        </main>
+        
+	<script src="js/tota11y.min.js"></script>
+	</body>
+</html>
+
+        
+    </body>
