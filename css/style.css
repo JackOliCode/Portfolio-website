@@ -416,8 +416,8 @@ button:hover, button:focus,
 
 .project-bg {
 	/*background: linear-gradient( to right, pink 0%, #ff4ed2 50%, #1fff59 50%, paleturquoise 100% );*/
-	background: linear-gradient(180deg, rgba(255,78,210,1) 0%, rgba(255,78,210,1) 75%, rgba(255,71,208,1) 75%, rgba(255,71,208,1) 100%);}
-
+	background: linear-gradient(180deg, rgba(255,78,210,1) 0%, rgba(255,78,210,1) 75%, rgba(255,71,208,1) 75%, rgba(255,71,208,1) 100%);
+}
 .project-container {
 	width: 80%;
 	margin: 0 auto;

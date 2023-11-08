@@ -27,7 +27,7 @@
 						<a href="about.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> About Me</a>
 					</li>
 					<li role=presentation>
-						<a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: var(--primary-color);"> Projects</a>
+						<a href="projects.html" role="menuitem" class="navigation-list__item navigation-list__item--active" style="color: var(--primary-color);"> Projects</a>
 					</li>
 					<li role=presentation>
 						<a href="contact.html" role="menuitem" class="navigation-list__item" style="color: var(--primary-color);"> Contact</a>
@@ -86,7 +86,7 @@
 				</div>  
                 
                 </section>
-                <div style="height: 25vh;" ></div>
+
 
                 <!-- MyFlix Carousel -->
 
@@ -97,26 +97,54 @@
                             React - Angular - Back-End
                         </p>
                     </div>
+
                     <div class="carousel" data-carousel>
                         <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
                         <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
                         <ul data-slides>
                             <li class="slide" data-active=""> <!-- myFlix React -->
-                                <img src="img/project/myflix.png" 
-                                alt="image of and link to the Front End of my MyFlix project, made using React">
+                                <h3>hello</h3>
+                                <a
+                                    href="https://jackocflix.netlify.app/login"
+                                    target="blank">
+                                    <img class="carousel-img" src="img/project/myflix.png" 
+                                    alt="image of and link to the Front End of my MyFlix project, made using React"></a>
                             </li>
                             <li class="slide"> <!-- myFlix Angular -->
-                                <img src="img/project-screenshots/myflixangular.png" 
-                                alt="image of and link to the reimagined Front End of my MyFlix project, made using Angular">
+                                <a
+                                    href="https://jackocflix.netlify.app/login"
+                                    target="blank">
+                                <img class="carousel-img" src="img/project-screenshots/myflixangular.png" 
+                                alt="image of and link to the reimagined Front End of my MyFlix project, made using Angular"></a>
                             </li>
                             <li class="slide"> <!-- myFlix backend -->
-                                <img src="img/project/mongo.png" 
-                                alt="image of and link to the backend for my MyFlix app">
+                                <a
+                                    href="https://github.com/JackOliCode/myFlix-client"
+                                    target="blank">
+                                <img class="carousel-img" src="img/project/mongo.png" 
+                                alt="image of and link to the backend for my MyFlix app"></a>
                             </li>
                         </ul>
                     </div>
+
+                    
+
                 </section>
-                <div style="height: 25vh;" ></div>
+                <div style="display: flex; align-items: center; justify-content: center; background: rgba(255,71,208,1);">
+                    <div class="project-myflix_info">
+                        <h3>MyFlix Projects</h3>
+                        <p>
+                            Above are the three projects I made for the MyFlix app assignment. I began with creating a database using JSON and Node.js and the database is hosted on MongoDB. 
+                            <br><br>
+                            After this, I then made a single page app in React, using multiple components to allow the user to view a range of pre-existing movies, their own user profile and the movies that they have added to their favourites. The front end app syncs with the MyFlix API mentioned above.
+                            <br><br>
+                            Finally, after some time away from the project, I returned to reimagine the front end client and used Angular to make it on this occasion. 
+                            <br><br>
+                        </p>
+                        <a href="https://github.com/JackOliCode/myFlix-client" target="blank">See this on GitHub</a>
+                    </div>
+                </div>
+
 
                 <!-- Meet app Project -->
 
@@ -155,7 +183,7 @@
 					
 
                 </section>
-                <div style="height: 25vh;" ></div>
+
 
                 <!-- Lemonshed Project -->
                 
@@ -199,6 +227,12 @@
                 </section>
 
             </div>
+
         </main>
+        
+	<script src="js/tota11y.min.js"></script>
+	</body>
+</html>
+
         
     </body>
