@@ -335,14 +335,6 @@ button:hover, button:focus,
 	text-align: center;
 }
 
-.about-bio_p {
-	width: 80%;
-	text-align: justify;
-	text-justify: inter-word;
-	margin: 0 auto;
-	margin-bottom: 30px;
-}
-
 .skyline {
 	display: block;
 	text-align: center;

@@ -30,9 +30,21 @@ font-family: 'Oswald', sans-serif;
 }
 
 .about-h1 {
-	font-size: 50px;
-	margin: 0;
+	font-size: 100px;
+    margin: 0;
     color: var(--primary-color);
+    line-height: 100px;
+}
+
+
+.about-bio_flex {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	bottom: 20%;
+    position: relative;
+    left: 5%;
 }
 
 .about-bio_p {
@@ -40,7 +52,7 @@ font-family: 'Oswald', sans-serif;
 	text-align: justify;
 	text-justify: inter-word;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	font-size: 24px;
     color: var(--primary-color);
 }
 
@@ -56,4 +68,14 @@ font-family: 'Oswald', sans-serif;
 	.about-h1 {
 		font-size: 30px;
 	}
+	}
+
+.about-bio_section {
+		height: 100vh;
+		width: 98vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		scroll-snap-align: start;
 	}
