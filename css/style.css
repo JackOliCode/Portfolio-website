@@ -249,10 +249,6 @@ a:active {
 	background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue-light), var(--dark-blue));*/
 }
 
-.page-header__item {
-	flex: 0 1 95px;
-	width: 95px;
-}
 
 .page-header__item:last-child {
 	flex-grow: 1;
@@ -263,13 +259,7 @@ a:active {
 
 /* ------------------------About page begins ---------------------------------*/
 
-.about-container {
-	margin: 0 auto;
-	background-color: black;
-	/*margin-top: 50px;*/
-	/*max-width: 75%;*/
-	/* outline: 1px solid blueviolet; */
-}
+
 
 .animation-container {
 	margin: 0 auto;
