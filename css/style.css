@@ -21,10 +21,17 @@ font-family: 'Oswald', sans-serif;
 }
 
 :root {
-		--primary-color: #b4e2ff;
-		--secondary-color: #c0c0c0;
-		--dark-blue: #062256;
-		--dark-blue-light: #093586;
+    --primary-color: #b4e2ff;
+    --secondary-color: #c0c0c0;
+    --dark-blue: #062256;
+    --dark-blue-light: #093586;
+	--home-green: rgba(94,252,141,1);
+	--project-pink: rgb(255 78 210);
+	--about-blue: #00bbf9;
+	--lemon-yellow: #fee440;
+	--contact-purple: #9b5de5;
+
+
 }
 
 body {
